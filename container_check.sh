@@ -1,7 +1,7 @@
 #!/bin/bash
 j=0
-file=/tmp/ifh_check.container
-cfile=/opt/docker/.ifh_container_alerts/bin/containers.txt
+file=/tmp/check.container
+cfile=/opt/docker/.container_alerts/bin/containers.txt
 query="healthy"
 #state="down"
 if [ -f $cfile ]; then
