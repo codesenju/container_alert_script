@@ -3,7 +3,7 @@
 j=0
 file=/tmp/check.container
 cfile=/opt/docker/.container_alerts/bin/containers.txt
-query="healthy"
+query="(healthy)"
 #state="down"
 if [ -f $cfile ]; then
   for cont in $(cat $cfile); do
